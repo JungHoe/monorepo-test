@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:common": "npm run dev --workspace=packages/common",
+    "dev:app1": "npm run dev --workspace=packages/app1",
+    "build:common": "npm run build --workspace=packages/common",
+    "build:app1": "npm run build --workspace=packages/app1"
   },
   "keywords": [],
   "author": "",
