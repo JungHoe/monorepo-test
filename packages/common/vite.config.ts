@@ -15,7 +15,7 @@ export default defineConfig({
 ],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/main.tsx'),
+      entry: path.resolve(__dirname, 'src/index.tsx'), //entry를 정확하게 지정해야 에러가 발생하지않음
       name: 'common_libs',
     },
     rollupOptions: {

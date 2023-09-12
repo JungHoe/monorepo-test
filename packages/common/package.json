@@ -12,6 +12,7 @@
   "files": [
     "dist"
   ],
+  "main": "dist/common.js",
   "types": "./dist/index.d.ts",
   "peerDependencies": {
     "react": "^18.2.0",
